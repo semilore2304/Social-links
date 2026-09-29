@@ -1,0 +1,95 @@
+/* .outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.social{
+    width: 90%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+
+    padding: 10px;
+
+
+}
+
+.profile{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img{
+    width: 100%;
+    max-width: 80px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
+.profile h2{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.profile h3{
+    color: hsl(75, 94%, 57%);
+    font-size: 0.878rem;
+    margin-bottom: 20px;
+}
+
+.profile p{
+    margin-bottom: 20px;
+}
+
+li{
+    list-style: none;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+a{
+    display: block;
+    padding: 10px  70px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+li:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+
+li:hover a{
+    color: hsl(0, 0%, 8%);
+}
